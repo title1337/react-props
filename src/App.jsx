@@ -107,8 +107,8 @@ function Footer() {
   );
 }
 
-function Button({ buttonText, buttonStyle }) {
-  return <button className={buttonStyle}>{buttonText}</button>;
+function Button(props) {
+  return <button className={props.buttonStyle}>{props.buttonText}</button>;
 }
 
 function App() {
